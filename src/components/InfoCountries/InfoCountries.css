@@ -1,0 +1,58 @@
+.infoCountry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.infoCountry h3 {
+    text-align: center;
+}
+.flag {
+    border: solid 2px #B6BBC4;
+    width: 100px;
+    padding: 3px;
+}
+.bandera_escudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+    padding: 5px;
+}
+
+.info_camp {
+    background-color: #161A30;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.info_camp label {
+    font-weight: bold;
+}
+
+#map a{
+    color: #f0ece5;
+}
+#idd {
+    overflow: hidden;
+}
+
+@media (min-width: 769px) {
+    .bandera_escudo {
+        justify-content: center;
+        gap: 20px;
+    }
+    .info {
+        justify-content: center;
+        width: 50%;
+    }
+}

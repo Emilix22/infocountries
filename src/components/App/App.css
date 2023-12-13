@@ -1,0 +1,35 @@
+/* F0ECE5
+B6BBC4
+31304D
+161A30 */
+header {
+    border-bottom: solid 2px #B6BBC4;
+    padding: 20px;
+}
+.select_country {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #161A30;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+.select_country select {
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f0ece5;
+    color: #161A30;
+}
+
+@media (min-width: 769px) {
+    .select_country {
+        width: 30%;
+    }
+}
