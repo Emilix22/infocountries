@@ -12,5 +12,5 @@ Este proyecto es una aplicación web que permite a los usuarios buscar y explora
 
 ## Contacto
 
-Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contactarme a través de mi perfil de GitHub o en **www.emilixweb.com.
+Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contactarme a través de mi perfil de GitHub o en **www.emilixweb.com**.
 
