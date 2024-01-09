@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import { getCountries } from "../../services/getCountries";
+import { orderAlphabetical } from "../../services/orderAlphabetical";
 import InfoCountries from "../InfoCountries/InfoCountries";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <select name="country" id="country" onChange={countryHandler}>
             <option value="">Seleccione...</option>
             {countries.data
-              ? countries.data.map((country, index) => {
+              ? orderAlphabetical(countries.data, country => country.translations.spa.common).map((country, index) => {
                   return (
                     <option value={country.cca2} key={country + index}>
                       {country.translations.spa.common}
